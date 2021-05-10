@@ -1,0 +1,42 @@
+body{
+    color:darkslategray;
+    font-family: Arial, sans-serif ;
+    font-weight: lighter;
+    margin: 5px;
+    padding:15px;
+}
+.black-border1{
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.black-border2{
+    border: 1.5px solid gray;
+    border-radius: 15px;
+}
+.silver-background{
+    background-color:silver;
+}
+h2{
+    text-emphasis: 16px;
+}
+#italic-text{
+    font-style:italic;
+}
+
+.image-border{
+    border:2px green;
+    border-style: double;
+}
+.border-list{
+background-color: rgba(143, 138, 138, 0.993);
+color:ivory;
+text-align-last: center;
+font-size: 15px;
+font-weight: bold;
+padding: 5px;
+border-radius: 15px;
+}
+nav{
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
