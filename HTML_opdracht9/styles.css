@@ -1,0 +1,100 @@
+body{
+    color:darkslategray;
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 15px;
+    
+}
+
+.container{
+    display:flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+}
+
+.container > div{
+    width: 300px; border: 2.5px solid black; 
+    
+    
+}
+.blogpost5   { 
+    align-self: center ;
+    flex-grow: 1;
+    
+}
+
+.block1{
+    border: 3px solid rgb(35, 238, 86);
+    border-radius: 15px;
+    margin: 5px;
+    /*padding: 5px 15px 5px 15px;*/
+    padding: 5px 15px;
+}
+.block2{
+    border: 1.5px solid rgb(120, 76, 241);
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px 15px 5px 15px;
+    
+}
+.silver-background{
+    background-color:silver;
+}
+/* test volgorde */
+h1 {                                                                                 
+    font-size: 20px;
+}
+h2{
+    text-emphasis: 16px;
+    text-align: center;
+}
+
+form{
+    display:left;
+}
+   
+#italic-text{
+    font-style:italic;
+}
+
+.image-border{
+    border:2px green;
+    border-style: double;
+}
+.border-list{
+background-color: rgba(143, 138, 138, 0.993);
+color:ivory;
+text-align-last: center;
+font-weight: bold;
+padding: 5px;
+border-radius: 15px;
+}
+nav li{
+    padding-left: 1px;
+    padding-bottom: 5px;
+    display: left;    
+}
+
+@media screen and (min-width: 1024px){
+   body{ 
+       background-color: rgb(235, 245, 181);
+        color:rgb(107, 129, 8) ;
+        font-size: 0.8rem;
+        line-height: 1.5rem ;
+   }
+}      
+/* ivm volgorde van lezen, deze gewijzigd naar een logische volgorde
+* en h1 naar boven verplaatst, waar je m zou verwachten */
+@media (min-width: 320px) {                                                          
+    h1 {                                                                             
+        font-size: 10px;                                                             
+    }                                                                                
+} 
+
+@media (min-width: 768px) {                                                          
+    h1 {                                                                             
+        font-size: 20px;                                                             
+    }                                                                                
+} 
+
