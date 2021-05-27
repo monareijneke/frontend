@@ -1,0 +1,107 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 15px;
+    height:400px;
+}
+
+h1{
+    font-size: 1.3em;
+}
+
+h2{
+    color:rgb(150, 148, 148);
+    font-size: 0.8em;
+}
+div{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(2, 50%);
+    height:400px;
+    width: 1024px;
+}
+
+.block{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 22px, 15px 1fr 3px 30px;
+    border: 2px solid rgb(199, 197, 197);
+    border-radius: 5px;
+    padding: 20px;
+    margin:3px;
+    grid-template-areas: 
+       "n f"
+       "s f"
+       "v v"
+       "l l"
+       "a d"
+    ;
+}
+/*
+.block{
+    display:grid;
+    grid-template-columns: 200px, 1fr;
+    grid-row: 100px 1fr 100px;
+    height:350px;
+}*/
+
+.naam{
+    align-self: baseline;
+    grid-area: n;
+}
+
+div.fotoa{
+    background-image: url(img2.png);
+    background-position-x: right;
+    background-repeat: no-repeat; 
+    grid-area: f;
+}
+
+div.fotob{
+    background-image: url(img1.png);
+    background-position-x: right;
+    background-repeat: no-repeat; 
+    size: cover;
+    grid-area: f;
+}
+.status{
+    align-self: top;
+    grid-area: s;
+}
+
+.verzoek{
+    grid-area: v;
+}
+
+.lijn{
+    color:rgb(199, 197, 197);
+    grid-area: l;
+}
+
+div .buttona{
+    background-color: white;
+    height: 59.35px;
+    width: 225px;
+    border:2px solid rgb(14, 206, 14);
+    color:rgb(14, 206, 14);
+    font-size: 1.2em;
+    border-radius:5px 0px 0px 5px;
+    margin: 10px 0px 10px 10px;
+    grid-area: a;
+
+}
+div .buttond{
+    background-color: white;
+    height: 59.35px;
+    width: 225px;
+    border:2px solid rgb(206, 43, 14);
+    color: rgb(206, 43, 14);
+    font-size: 1.2em;
+    border-radius:0px 5px 5px 0px;
+    margin: 10px 10px 10px 0px;
+    grid-area: d;
+
+}
