@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+}
+
+.onhover:hover {
+    color:rgb(151, 191, 243);
+    font-weight: bold;
+}
+
+.onclick:active {
+    color:red;
+    font-style: italic;
+}
+
+.bezocht:visited {      /*deze werkt niet*/
+    color:yellow;
+}
+
+textarea:focus{
+    color: green;
+    font-size: 20px;
+}
+/*nav gedeelte*/
+
+ul{
+    list-style-type: none;
+    background-color: darkblue;
+    overflow:hidden;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    float:left;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 15px 15px 15px 0px;
+    color: honeydew;
+    text-decoration: none;
+    margin: 0px 20px 0px 0px;
+    
+}
+li input{
+    display: block;
+    margin: 5px 20px 5px 5px;
+    padding: 10px 15px 9px 5px;
+
+}
+li .currentPage{
+    background-color: lightblue;
+    padding: 15px;
+    color: dimgray;
+    font-weight:bolder;
+}
+
+li .onhover:hover {
+    background-color: dodgerblue;
+    color: honeydew;
+    font-weight: normal;
+    
+}
+li input:focus{
+    border: 5px solid aqua;
+    padding: 5px 15px 4px 5px;
+}
