@@ -1,0 +1,66 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  padding: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  box-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.bgColor {
+  background-color: #e1c3e2;
+}
+
+.menuKleur {
+  position: fixed;
+  list-style: none;
+}
+
+.showMenuKleur {
+  position: fixed;
+  list-style: none;
+  display: none;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  list-style: none;
+  display: flex;
+  direction: column;
+  align-items: center;
+}
+
+#blauw {
+  background-color: rgb(71, 140, 243);
+}
+
+#rood {
+  background-color: rgb(245, 75, 75);
+}
+
+#geel {
+  background-color: khaki;
+}
+
+#groen {
+  background-color: mediumseagreen;
+}
+
+#oranje {
+  background-color: orange;
+}
